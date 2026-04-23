@@ -14,7 +14,6 @@ class Canara extends Bank{
 public class p1_polymorphism {
  public static void main(String [] args)   {
 
-    
     Bank obj=new Canara();
     obj.display();
  }
