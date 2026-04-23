@@ -3,7 +3,7 @@ public class p5_varscope {
     static int b=20;
 
     public static void main(String [] args){
-        //System.out.println(a);
+        //System.out.println(a); // -->cannot access 
         System.out.println(b);
     }
     
