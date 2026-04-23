@@ -5,11 +5,11 @@ interface IT_company{
 }
 
 class Tech implements IT_company{
-
+    @Override
     public void softwareDevelopment(){
         System.out.println("Hello Developer");
     }
-
+    @Override
     public void Hiring(){
         System.out.println("We are hiring");
     }   
