@@ -1,0 +1,22 @@
+public class p5_missing_number {
+    public static void main(String args[]) {
+
+        int arr[] = {1,2,3,4,5,6,7,9};
+
+        int n = arr.length + 1;  
+
+    
+        int expectedSum = n * (n + 1) / 2;
+
+        // Step 2: Actual sum
+        int actualSum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            actualSum += arr[i];
+        }
+
+        
+        int missing = expectedSum - actualSum;
+
+        System.out.println("Missing number is: " + missing);
+    }
+}
