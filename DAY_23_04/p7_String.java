@@ -1,9 +1,14 @@
 class string_mutable_alternatives{
-    public void alter(){
+    public void  stringBuilder(){
         StringBuilder sc= new StringBuilder();
         sc.append("Hello World");
         sc.append("Good day!");
         System.out.println (sc);
+    }
+    public void stringBuffer(){
+        StringBuffer sb =new StringBuffer("Hello");
+        sb.append("World");
+        System.out.println (sb);
     }
 }
 
@@ -32,7 +37,8 @@ public class p7_String {
         
 
         string_mutable_alternatives obj = new string_mutable_alternatives();
-        obj.alter();
+        obj.stringBuffer();
+        obj.stringBuilder();
 
     }
 }

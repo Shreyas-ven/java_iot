@@ -15,11 +15,12 @@ public class p2_arrayList {
         List.add(1,42000);
 
         System.out.println("");
-        
+
         System.out.println("After modification");
         for(int i:List){
             System.out.print(i + " ");
         }
 
+        
     }
 }

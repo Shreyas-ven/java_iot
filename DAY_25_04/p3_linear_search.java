@@ -17,6 +17,5 @@ public class p3_linear_search {
         }
         
 
-
     }
 }

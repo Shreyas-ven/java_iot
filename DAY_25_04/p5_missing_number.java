@@ -8,7 +8,7 @@ public class p5_missing_number {
     
         int expectedSum = n * (n + 1) / 2;
 
-        // Step 2: Actual sum
+
         int actualSum = 0;
         for (int i = 0; i < arr.length; i++) {
             actualSum += arr[i];

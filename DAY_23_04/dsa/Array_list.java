@@ -8,7 +8,6 @@ public class Array_list {
         ListArray.add(10);
         ListArray.add(25);
         ListArray.add(55);
-
         System.out.println(ListArray);
 
         for (int num:ListArray){

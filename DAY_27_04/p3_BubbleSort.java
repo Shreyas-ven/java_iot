@@ -27,8 +27,6 @@ public class p3_BubbleSort {
             }
         }
 
-
-
         System.out.println("\nSorted Array:");
 
         for (int i = 0; i < arr.length; i++) {

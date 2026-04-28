@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class First_last {
+public class p1_First_last {
 
     static int first(int arr[], int target) {
         int low = 0, high = arr.length - 1, ans = -1;
