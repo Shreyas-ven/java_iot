@@ -4,7 +4,7 @@ import java.util.*;
 public class p1_multiple_data {
     public static void main(String []args ){
         ArrayList<Integer> List =new ArrayList<>();
-        LinkedList<Integer> LL = new LinkedList<>();
+        LinkedListSing_Double<Integer> LL = new LinkedListSing_Double<>();
 
         HashSet<Integer> Hs=new HashSet<>();
         TreeSet<Integer> Ts =new TreeSet<>();
