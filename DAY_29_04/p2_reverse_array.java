@@ -25,5 +25,6 @@ public class p2_reverse_array {
 
         System.out.println("Reversed array is:");
         reverse(arr, n);
+
     }
 }
