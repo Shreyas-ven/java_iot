@@ -14,5 +14,6 @@ public class lms1 {
 
         // Print sorted string
         System.out.println(new String(arr));
+
     }
 }
