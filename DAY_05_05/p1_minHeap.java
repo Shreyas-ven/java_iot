@@ -12,5 +12,4 @@ public class p1_minHeap {
         minHeap.poll();
         System.out.println(minHeap.peek());
     }
-    
 }

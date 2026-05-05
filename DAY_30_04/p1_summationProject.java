@@ -19,6 +19,8 @@ public class p1_summationProject {
         for (int i = 1; i <= n - k; i++) {
             sum = sum - arr[i - 1] + arr[i + k - 1];
             System.out.println("Window " + (i + 1) + " Sum = " + sum);
+
         }
     }
+    
 }
