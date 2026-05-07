@@ -21,7 +21,7 @@ public class p5_adjacencyMatrix {
 
         for (int i = 0; i < vertices; i++) {
             for (int j = 0; j < vertices; j++) {
-                System.out.print(matrix[i][j] + " ");
+                System.out.print(matrix[i][j] + " ");   
             }
             System.out.println();
         }
